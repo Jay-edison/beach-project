@@ -103,3 +103,18 @@ h3 {
   margin-top: 13px;
   font-size: 13px;
 }
+
+.button-element {
+  background: #01d98b;
+  width: fit-content;
+  position: absolute;
+  /* padding: 16px 13px 13px 16px; */
+  border-radius: 100px;
+  height: 48px;
+  width: 48px;
+  border: none;
+  margin-right: 16px;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
