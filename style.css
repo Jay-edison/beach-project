@@ -55,6 +55,7 @@ li a:hover {
   font-family: sans-serif;
   font-size: 13px;
   background: transparent;
+  cursor: pointer;
 }
 
 p {
@@ -64,7 +65,7 @@ p {
   font-weight: lighter;
   text-align: left;
   height: 12px;
-  margin-top: 120px;
+  margin-top: 80px;
   margin-left: 25px;
 }
 
@@ -83,19 +84,30 @@ h3 {
 }
 
 .input-icon {
+  margin-top: 75px;
+  margin-left: 25px;
+  width: 28%;
+  position: relative;
   grid-column: auto;
   display: grid;
 }
 
 .icons {
-  width: 28%;
-  height: 35px;
-  margin-top: 75px;
-  margin-left: 25px;
+  width: 100%;
+  height: auto;
+  padding: 11px 16px 11px 56px;
   border: 1px solid #01d98b;
   border-radius: 6px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 15px;
+  font-size: 18px;
+}
+
+span {
+  position: absolute;
+  left: 0;
+  top: 55%;
+  transform: translateY(-50%);
+  margin: 0 16px;
 }
 
 .one {
@@ -106,15 +118,42 @@ h3 {
 
 .button-element {
   background: #01d98b;
-  width: fit-content;
+  height: 36px;
+  width: 37px;
   position: absolute;
   /* padding: 16px 13px 13px 16px; */
-  border-radius: 100px;
-  height: 48px;
-  width: 48px;
+  border-radius: 50px;
   border: none;
   margin-right: 16px;
   right: 0;
   top: 50%;
   transform: translateY(-50%);
+  cursor: pointer;
+}
+
+svg {
+  height: 35px;
+  width: 26px;
+}
+
+.container {
+  position: relative;
+}
+
+.image {
+  display: block;
+  width: 260px;
+  height: 190px;
+  margin-left: -20px;
+  margin-top: 20px;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.img-box {
+  float: right;
+  width: 40px;
+  margin-top: -200px;
+  margin-right: 320px;
+  background-attachment: fixed;
 }
